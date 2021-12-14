@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>成绩查询</title>
+		<style type = "text/css">
+			body{
+				font-size:13px;
+			}
+			.mainDiv{
+				border:2px solid #C8DCDB;
+				width:600px;
+				margin:0px auto;
+				border-top-left-radius:20px;
+				border-top-right-radius:20px;
+				overflow:hidden;
+			}
+			.title{
+				background-color:#94BFE2;
+				border-bottom:1px solid #C8DCDB;
+				height:50px;
+				line-height:50px;
+				font-weight:bold;
+				padding-left:10px;
+				font-size:15px;
+			}
+			.line{
+				width:700px;
+				height:30px;
+				line-height:30px;
+				font-weight:bold;
+				margin:0px auto;
+				margin-top:30px;
+				border-bottom:1px solid #C8DCDB;
+			}
+			.item{
+				width:700px;
+				display:flex;
+				margin:10px auto;
+			}
+			.item div:nth-of-type(1){
+				width:100px;
+				text-algin:right;
+			}
+			.item div:nth-of-type(2){
+				width:600px;
+			}
+			</style>
+	</head>
+	<body>
+		<form name = "frm" method = "get" action = "https://donjourney1221.github.io/cjcx/cjcx.html">
+			<div class = "mainDiv">
+				<div class = "title">学生成绩查询</div>
+				<div class = "item">
+					<div>学号：</div>
+					<div>
+						<input tyoe = "password" name = "password" class = "txt1">
+					</div>
+				</div>
+				<div class = "item">
+					<div></div>
+					<div>
+						<input type = "submit" value = "查询">
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
